@@ -24,7 +24,7 @@ class Movie {
     //Metodi
 
     function locandina(){
-        echo "<p>Il titolo del film è <strong>$this->pippo</strong></p>";
+        echo "<p>Il titolo del film è <strong>$this->titolo</strong></p>";
         echo "<p>Il regista è <strong>$this->regista</strong></p>";
         echo "<p>L'attore principale è <strong>$this->attore</strong>e</p>";
         echo "<p>Data di uscita <strong>$this->uscita</strong></p>";
