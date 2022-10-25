@@ -35,7 +35,7 @@ class Movie {
 
 }
 
-$datiFilm = new Movie("Interstellar", "Christopher Nola", "Matthew McConaughey", "26 ottobre 2014");
+$datiFilm = new Movie("Interstellar", "Christopher Nolan", "Matthew McConaughey", "26 ottobre 2014");
 $datiFilm->locandina();
 
 $datiFilm2 = new Movie("Inception", "Christopher Nola", "Leonardo di Caprio", "26 ottobre 2017");
