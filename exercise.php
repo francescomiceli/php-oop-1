@@ -15,8 +15,8 @@ class Movie {
 
         $this->titolo = $titolo;
         $this->regista = $regista;
-        $this->attore = $attorePrincipale;
-        $this->uscita = $dataUscita;
+        $this->attorePrincipale = $attorePrincipale;
+        $this->datauscita = $dataUscita;
 
 
     }
@@ -26,8 +26,8 @@ class Movie {
     function locandina(){
         echo "<p>Il titolo del film è <strong>$this->titolo</strong></p>";
         echo "<p>Il regista è <strong>$this->regista</strong></p>";
-        echo "<p>L'attore principale è <strong>$this->attore</strong>e</p>";
-        echo "<p>Data di uscita <strong>$this->uscita</strong></p>";
+        echo "<p>L'attore principale è <strong>$this->attorePrincipale</strong>e</p>";
+        echo "<p>Data di uscita <strong>$this->dataUscita</strong></p>";
         echo "<hr>";
     
     }
